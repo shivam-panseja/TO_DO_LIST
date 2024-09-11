@@ -29,10 +29,8 @@ app.post("/", (req, res) => {
   // redirect back to main page (refresh page)
   res.redirect("/");
 });
-// run your application, so it listens on port 4444
-app.listen(4444, () => {
-  console.log("Server is Listening on port 4444");
-});
+
+
 
 app.listen(3000, () => {
   console.log("The Port is running on 3000");
